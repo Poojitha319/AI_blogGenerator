@@ -3,7 +3,7 @@
   "architectures": [
     "LlamaForCausalLM"
   ],
-  "hf_token": "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",
+  "hf_token": "YOUR_HUGFACE_TOKEN",
   "bos_token_id": 1,
   "eos_token_id": 2,
   "hidden_act": "silu",
