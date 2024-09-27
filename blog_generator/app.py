@@ -3,14 +3,12 @@ from transformers import AutoModelForCausalLM, AutoTokenizer ,BitsAndBytesConfig
 from langchain.prompts import PromptTemplate
 from huggingface_hub import login
 import json,torch
-# Load model directly
-#token ="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"
 
 
 
 # Function to get response from Llama 2 model
 def get_llama_response(input_text, no_words, blog_style):
-    config_data = json.load(open(r"c:\Users\Sai\Desktop\My\dream\llm\blog_generator\config.json"))
+    config_data = json.load(open(r"blog_generator\config.json"))
     huggingface_token = config_data["hf_token"]
     #Quantization
     quant_config = BitsAndBytesConfig(
