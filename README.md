@@ -30,7 +30,7 @@ To run this application, ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Poojitha319/AI_blogGenerator
    cd blog_generator
 2.**Install required packages:**
 ```bash
